@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/lvl1.unity
+    guid: a8e8a68ece698f4498c502d678ec0250
+  - enabled: 1
+    path: Assets/Scenes/GameLose.unity
+    guid: 2c12a5a2c08c5af428031e8656c86e85
+  - enabled: 1
+    path: Assets/Scenes/GameWin.unity
+    guid: d067fb3e8d1c5164194807c5493fdeb1
+  m_configObjects: {}
