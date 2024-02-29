@@ -35,6 +35,28 @@ public class CollisionHandler : MonoBehaviour
         {
             SceneManager.LoadScene("GameLose");
         }
+        
+        if (collision.gameObject.CompareTag("Collectible2"))
+        {
+            
+            totalPoints += pointsToAdd;
+
+            
+            UpdateUI();
+
+            
+            Destroy(collision.gameObject);
+
+            if (totalPoints>=4)
+            {
+                SceneManager.LoadScene("GameWin2");
+            }
+        }
+        if (collision.gameObject.CompareTag("Hazard"))
+        {
+            SceneManager.LoadScene("GameLose");
+        }
+
     }
 
     
