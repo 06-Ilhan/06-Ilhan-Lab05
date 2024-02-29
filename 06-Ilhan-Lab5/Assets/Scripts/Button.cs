@@ -21,4 +21,8 @@ public class Button : MonoBehaviour
     {
         SceneManager.LoadScene("lvl1");
     }
+    public void OnRestartClick1()
+    {
+        SceneManager.LoadScene("Level2");
+    }
 }
